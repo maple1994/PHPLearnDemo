@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="386fc526-20ba-4826-9eee-9eda5a82c792" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Grammer/Subscribe/include.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Grammer/Subscribe/manage.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Grammer/AddressBook/addentry.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Grammer/AddressBook/delentry.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Grammer/AddressBook/include.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Grammer/AddressBook/mymenu.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Grammer/AddressBook/selentry.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Learn.iws" />
@@ -26,28 +29,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="include.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01-Grammer/Subscribe/include.php">
+      <file leaf-file-name="addentry.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/01-Grammer/AddressBook/addentry.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.806452">
-              <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.6857143">
+              <caret line="152" column="28" selection-start-line="152" selection-start-column="28" selection-end-line="152" selection-end-column="28" />
               <folding>
-                <marker date="1542781897860" expanded="true" signature="532:572" placeholder="select id fr..subscribers..." />
-                <marker date="1542781897860" expanded="true" signature="532:591" placeholder="select id fr..subscribers..." />
-                <marker date="1542781897860" expanded="true" signature="532:592" placeholder="select id fr..subscribers..." />
+                <marker date="1543919797430" expanded="true" signature="4059:4157" placeholder="INSERT INTO master_name..." />
+                <marker date="1543919797430" expanded="true" signature="4059:4177" placeholder="INSERT INTO master_name..." />
+                <marker date="1543919797430" expanded="true" signature="4059:4195" placeholder="INSERT INTO master_name..." />
+                <marker date="1543919797430" expanded="true" signature="4509:4611" placeholder="INSERT INTO address..." />
+                <marker date="1543919797430" expanded="true" signature="4509:4627" placeholder="INSERT INTO address..." />
+                <marker date="1543919797430" expanded="true" signature="4509:4628" placeholder="INSERT INTO address..." />
+                <marker date="1543919797430" expanded="true" signature="4509:4660" placeholder="INSERT INTO address..." />
+                <marker date="1543919797430" expanded="true" signature="4509:4689" placeholder="INSERT INTO address..." />
+                <marker date="1543919797430" expanded="true" signature="4509:4707" placeholder="INSERT INTO address..." />
+                <marker date="1543919797430" expanded="true" signature="4509:4726" placeholder="INSERT INTO address..." />
+                <marker date="1543919797430" expanded="true" signature="4509:4755" placeholder="INSERT INTO address..." />
+                <marker date="1543919797430" expanded="true" signature="4509:4757" placeholder="INSERT INTO address..." />
+                <marker date="1543919797430" expanded="true" signature="4509:4779" placeholder="INSERT INTO address..." />
+                <marker date="1543919797430" expanded="true" signature="4950:4961" placeholder="INSERT INTO telephone..." />
+                <marker date="1543919797430" expanded="true" signature="4950:5044" placeholder="INSERT INTO telephone..." />
+                <marker date="1543919797430" expanded="true" signature="4950:5085" placeholder="INSERT INTO telephone..." />
+                <marker date="1543919797430" expanded="true" signature="4950:5111" placeholder="INSERT INTO telephone..." />
+                <marker date="1543919797430" expanded="true" signature="4950:5137" placeholder="INSERT INTO telephone..." />
+                <marker date="1543919797430" expanded="true" signature="5300:5388" placeholder="INSERT INTO fax..." />
+                <marker date="1543919797430" expanded="true" signature="5300:5479" placeholder="INSERT INTO fax..." />
+                <marker date="1543919797430" expanded="true" signature="5639:5724" placeholder="INSERT INTO email..." />
+                <marker date="1543919797430" expanded="true" signature="5639:5814" placeholder="INSERT INTO fax..." />
+                <marker date="1543919797430" expanded="true" signature="5976:6063" placeholder="INSERT INTO personal_notes..." />
+                <marker date="1543919797430" expanded="true" signature="5976:6122" placeholder="INSERT INTO personal_notes..." />
+                <marker date="1543919797430" expanded="true" signature="6291:6309" placeholder="..." />
+                <marker date="1543919797430" expanded="true" signature="6310:6319" placeholder="..." />
+                <marker date="1543919797430" expanded="true" signature="6310:6344" placeholder="..." />
+                <marker date="1543919797430" expanded="true" signature="6310:6424" placeholder="..." />
+                <marker date="1543919797430" expanded="true" signature="6454:6575" placeholder="..." />
+                <marker date="1543919797430" expanded="true" signature="6461:6501" placeholder="..." />
+                <marker date="1543919797430" expanded="true" signature="6508:6567" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="manage.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/01-Grammer/Subscribe/manage.php">
+      <file leaf-file-name="selentry.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/01-Grammer/AddressBook/selentry.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.75555557">
-              <caret line="79" column="2" selection-start-line="79" selection-start-column="2" selection-end-line="80" selection-end-column="4" />
+            <state vertical-scroll-proportion="-9.967742">
+              <caret line="44" column="5" selection-start-line="42" selection-start-column="4" selection-end-line="44" selection-end-column="5" />
               <folding>
-                <marker date="1542792121525" expanded="true" signature="1075:1155" placeholder="insert into subscribers..." />
-                <marker date="1542792121525" expanded="true" signature="2079:2135" placeholder="delete from ..." />
+                <marker date="1543917743059" expanded="true" signature="123:130" placeholder="select * fro..master_name..." />
+                <marker date="1543917743059" expanded="true" signature="123:226" placeholder="select id, c..master_name..." />
+                <marker date="1543917743059" expanded="true" signature="521:1183" placeholder="..." />
+                <marker date="1543917743059" expanded="true" signature="537:1071" placeholder="..." />
+                <marker date="1543917743059" expanded="true" signature="697:1054" placeholder="..." />
+                <marker date="1543917743059" expanded="true" signature="1400:1481" placeholder="select id, c..master_name..." />
+                <marker date="1543917743059" expanded="true" signature="1400:1500" placeholder="select id, c..master_name..." />
+                <marker date="1543917743059" expanded="true" signature="1400:1501" placeholder="select conca..master_name..." />
+                <marker date="1543917743059" expanded="true" signature="1400:1502" placeholder="select id, c..master_name..." />
+                <marker date="1543917743059" expanded="true" signature="1888:1915" placeholder="select * fro..address..." />
+                <marker date="1543917743059" expanded="true" signature="1888:1916" placeholder="select * fro..address..." />
+                <marker date="1543917743059" expanded="true" signature="1888:1926" placeholder="select * fro..address..." />
+                <marker date="1543917743059" expanded="true" signature="1888:1936" placeholder="select * fro..address..." />
+                <marker date="1543917743059" expanded="true" signature="2595:2635" placeholder="select * fro..address..." />
+                <marker date="1543917743059" expanded="true" signature="3144:3178" placeholder="select * fro..fax..." />
+                <marker date="1543917743059" expanded="true" signature="3684:3720" placeholder="select * fro..email..." />
+                <marker date="1543917743059" expanded="true" signature="4232:4277" placeholder="select * fro..personal_notes..." />
+                <marker date="1543917743059" expanded="true" signature="4311:4358" placeholder="select * fro..personal_notes..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="delentry.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/01-Grammer/AddressBook/delentry.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.935484">
+              <caret line="37" column="68" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="68" />
+              <folding>
+                <marker date="1543918389628" expanded="true" signature="123:226" placeholder="select id, c..master_name..." />
+                <marker date="1543918389628" expanded="true" signature="1416:1448" placeholder="delete from ..." />
+                <marker date="1543918389628" expanded="true" signature="1416:1449" placeholder="delete from ..." />
+                <marker date="1543918389628" expanded="true" signature="1583:1619" placeholder="delete from ..." />
+                <marker date="1543918389628" expanded="true" signature="1751:1789" placeholder="delete from ..." />
+                <marker date="1543918389628" expanded="true" signature="1913:1945" placeholder="delete from ..." />
+                <marker date="1543918389628" expanded="true" signature="2071:2105" placeholder="delete from ..." />
+                <marker date="1543918389628" expanded="true" signature="2234:2277" placeholder="delete from ..." />
               </folding>
             </state>
           </provider>
@@ -88,6 +154,11 @@
         <option value="$PROJECT_DIR$/01-Grammer/Subscribe/message.php" />
         <option value="$PROJECT_DIR$/01-Grammer/Subscribe/include.php" />
         <option value="$PROJECT_DIR$/01-Grammer/Subscribe/manage.php" />
+        <option value="$PROJECT_DIR$/01-Grammer/AddressBook/include.php" />
+        <option value="$PROJECT_DIR$/01-Grammer/AddressBook/mymenu.html" />
+        <option value="$PROJECT_DIR$/01-Grammer/AddressBook/selentry.php" />
+        <option value="$PROJECT_DIR$/01-Grammer/AddressBook/delentry.php" />
+        <option value="$PROJECT_DIR$/01-Grammer/AddressBook/addentry.php" />
       </list>
     </option>
   </component>
@@ -149,7 +220,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -214,12 +284,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Php_Mysql" />
+              <option name="myItemId" value="AddressBook" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -315,11 +386,56 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/01-Grammer/Subscribe/include.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+          <folding>
+            <marker date="1542781897860" expanded="true" signature="532:572" placeholder="select id fr..subscribers..." />
+            <marker date="1542781897860" expanded="true" signature="532:591" placeholder="select id fr..subscribers..." />
+            <marker date="1542781897860" expanded="true" signature="532:592" placeholder="select id fr..subscribers..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-Grammer/Subscribe/manage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1542792121525" expanded="true" signature="1075:1155" placeholder="insert into subscribers..." />
+            <marker date="1542792121525" expanded="true" signature="2079:2135" placeholder="delete from ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-Grammer/Subscribe/include.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+          <folding>
+            <marker date="1542781897860" expanded="true" signature="532:572" placeholder="select id fr..subscribers..." />
+            <marker date="1542781897860" expanded="true" signature="532:591" placeholder="select id fr..subscribers..." />
+            <marker date="1542781897860" expanded="true" signature="532:592" placeholder="select id fr..subscribers..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-Grammer/Subscribe/manage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1542792121525" expanded="true" signature="1075:1155" placeholder="insert into subscribers..." />
+            <marker date="1542792121525" expanded="true" signature="2079:2135" placeholder="delete from ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/01-Grammer/Php_Mysql/01-connect.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="10" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -327,10 +443,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <marker date="1542448235816" expanded="true" signature="270:386" placeholder="CREATE table..testTable..." />
-            <marker date="1542448235816" expanded="true" signature="276:386" placeholder="create table..testTable..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -338,10 +450,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1542448737962" expanded="true" signature="270:326" placeholder="INSERT INTO mptestTable..." />
-            <marker date="1542448737962" expanded="true" signature="374:399" placeholder="select * fro..mptestTable..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -349,7 +457,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="10" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -357,10 +464,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1542448235816" expanded="true" signature="270:386" placeholder="CREATE table..testTable..." />
-            <marker date="1542448235816" expanded="true" signature="276:386" placeholder="create table..testTable..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -522,10 +625,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.52380955">
           <caret line="15" column="5" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="2" />
-          <folding>
-            <marker date="1542448262090" expanded="true" signature="270:305" placeholder="INSERT INTO testTable..." />
-            <marker date="1542448262090" expanded="true" signature="270:326" placeholder="INSERT INTO mptestTable..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -533,10 +632,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-14.903226">
           <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <marker date="1542448737962" expanded="true" signature="270:326" placeholder="INSERT INTO mptestTable..." />
-            <marker date="1542448737962" expanded="true" signature="374:399" placeholder="select * fro..mptestTable..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -544,10 +639,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.7096774">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="5" selection-end-column="65" />
-          <folding>
-            <marker date="1542448235816" expanded="true" signature="270:386" placeholder="CREATE table..testTable..." />
-            <marker date="1542448235816" expanded="true" signature="276:386" placeholder="create table..testTable..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -555,14 +646,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.7096774">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="10" selection-end-column="1" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-Grammer/Subscribe/manage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37142858">
+          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <folding>
+            <marker date="1542792121525" expanded="true" signature="1075:1155" placeholder="insert into subscribers..." />
+            <marker date="1542792121525" expanded="true" signature="2079:2135" placeholder="delete from ..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/01-Grammer/Subscribe/include.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.806452">
-          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.104761906">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
           <folding>
             <marker date="1542781897860" expanded="true" signature="532:572" placeholder="select id fr..subscribers..." />
             <marker date="1542781897860" expanded="true" signature="532:591" placeholder="select id fr..subscribers..." />
@@ -571,13 +672,102 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01-Grammer/Subscribe/manage.php">
+    <entry file="file://$PROJECT_DIR$/01-Grammer/AddressBook/include.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.75555557">
-          <caret line="79" column="2" selection-start-line="79" selection-start-column="2" selection-end-line="80" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.06984127">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-Grammer/AddressBook/mymenu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24444444">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-Grammer/AddressBook/delentry.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.935484">
+          <caret line="37" column="68" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="68" />
           <folding>
-            <marker date="1542792121525" expanded="true" signature="1075:1155" placeholder="insert into subscribers..." />
-            <marker date="1542792121525" expanded="true" signature="2079:2135" placeholder="delete from ..." />
+            <marker date="1543918389628" expanded="true" signature="123:226" placeholder="select id, c..master_name..." />
+            <marker date="1543918389628" expanded="true" signature="1416:1448" placeholder="delete from ..." />
+            <marker date="1543918389628" expanded="true" signature="1416:1449" placeholder="delete from ..." />
+            <marker date="1543918389628" expanded="true" signature="1583:1619" placeholder="delete from ..." />
+            <marker date="1543918389628" expanded="true" signature="1751:1789" placeholder="delete from ..." />
+            <marker date="1543918389628" expanded="true" signature="1913:1945" placeholder="delete from ..." />
+            <marker date="1543918389628" expanded="true" signature="2071:2105" placeholder="delete from ..." />
+            <marker date="1543918389628" expanded="true" signature="2234:2277" placeholder="delete from ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-Grammer/AddressBook/selentry.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.967742">
+          <caret line="44" column="5" selection-start-line="42" selection-start-column="4" selection-end-line="44" selection-end-column="5" />
+          <folding>
+            <marker date="1543917743059" expanded="true" signature="123:130" placeholder="select * fro..master_name..." />
+            <marker date="1543917743059" expanded="true" signature="123:226" placeholder="select id, c..master_name..." />
+            <marker date="1543917743059" expanded="true" signature="521:1183" placeholder="..." />
+            <marker date="1543917743059" expanded="true" signature="537:1071" placeholder="..." />
+            <marker date="1543917743059" expanded="true" signature="697:1054" placeholder="..." />
+            <marker date="1543917743059" expanded="true" signature="1400:1481" placeholder="select id, c..master_name..." />
+            <marker date="1543917743059" expanded="true" signature="1400:1500" placeholder="select id, c..master_name..." />
+            <marker date="1543917743059" expanded="true" signature="1400:1501" placeholder="select conca..master_name..." />
+            <marker date="1543917743059" expanded="true" signature="1400:1502" placeholder="select id, c..master_name..." />
+            <marker date="1543917743059" expanded="true" signature="1888:1915" placeholder="select * fro..address..." />
+            <marker date="1543917743059" expanded="true" signature="1888:1916" placeholder="select * fro..address..." />
+            <marker date="1543917743059" expanded="true" signature="1888:1926" placeholder="select * fro..address..." />
+            <marker date="1543917743059" expanded="true" signature="1888:1936" placeholder="select * fro..address..." />
+            <marker date="1543917743059" expanded="true" signature="2595:2635" placeholder="select * fro..address..." />
+            <marker date="1543917743059" expanded="true" signature="3144:3178" placeholder="select * fro..fax..." />
+            <marker date="1543917743059" expanded="true" signature="3684:3720" placeholder="select * fro..email..." />
+            <marker date="1543917743059" expanded="true" signature="4232:4277" placeholder="select * fro..personal_notes..." />
+            <marker date="1543917743059" expanded="true" signature="4311:4358" placeholder="select * fro..personal_notes..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-Grammer/AddressBook/addentry.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6857143">
+          <caret line="152" column="28" selection-start-line="152" selection-start-column="28" selection-end-line="152" selection-end-column="28" />
+          <folding>
+            <marker date="1543919797430" expanded="true" signature="4059:4157" placeholder="INSERT INTO master_name..." />
+            <marker date="1543919797430" expanded="true" signature="4059:4177" placeholder="INSERT INTO master_name..." />
+            <marker date="1543919797430" expanded="true" signature="4059:4195" placeholder="INSERT INTO master_name..." />
+            <marker date="1543919797430" expanded="true" signature="4509:4611" placeholder="INSERT INTO address..." />
+            <marker date="1543919797430" expanded="true" signature="4509:4627" placeholder="INSERT INTO address..." />
+            <marker date="1543919797430" expanded="true" signature="4509:4628" placeholder="INSERT INTO address..." />
+            <marker date="1543919797430" expanded="true" signature="4509:4660" placeholder="INSERT INTO address..." />
+            <marker date="1543919797430" expanded="true" signature="4509:4689" placeholder="INSERT INTO address..." />
+            <marker date="1543919797430" expanded="true" signature="4509:4707" placeholder="INSERT INTO address..." />
+            <marker date="1543919797430" expanded="true" signature="4509:4726" placeholder="INSERT INTO address..." />
+            <marker date="1543919797430" expanded="true" signature="4509:4755" placeholder="INSERT INTO address..." />
+            <marker date="1543919797430" expanded="true" signature="4509:4757" placeholder="INSERT INTO address..." />
+            <marker date="1543919797430" expanded="true" signature="4509:4779" placeholder="INSERT INTO address..." />
+            <marker date="1543919797430" expanded="true" signature="4950:4961" placeholder="INSERT INTO telephone..." />
+            <marker date="1543919797430" expanded="true" signature="4950:5044" placeholder="INSERT INTO telephone..." />
+            <marker date="1543919797430" expanded="true" signature="4950:5085" placeholder="INSERT INTO telephone..." />
+            <marker date="1543919797430" expanded="true" signature="4950:5111" placeholder="INSERT INTO telephone..." />
+            <marker date="1543919797430" expanded="true" signature="4950:5137" placeholder="INSERT INTO telephone..." />
+            <marker date="1543919797430" expanded="true" signature="5300:5388" placeholder="INSERT INTO fax..." />
+            <marker date="1543919797430" expanded="true" signature="5300:5479" placeholder="INSERT INTO fax..." />
+            <marker date="1543919797430" expanded="true" signature="5639:5724" placeholder="INSERT INTO email..." />
+            <marker date="1543919797430" expanded="true" signature="5639:5814" placeholder="INSERT INTO fax..." />
+            <marker date="1543919797430" expanded="true" signature="5976:6063" placeholder="INSERT INTO personal_notes..." />
+            <marker date="1543919797430" expanded="true" signature="5976:6122" placeholder="INSERT INTO personal_notes..." />
+            <marker date="1543919797430" expanded="true" signature="6291:6309" placeholder="..." />
+            <marker date="1543919797430" expanded="true" signature="6310:6319" placeholder="..." />
+            <marker date="1543919797430" expanded="true" signature="6310:6344" placeholder="..." />
+            <marker date="1543919797430" expanded="true" signature="6310:6424" placeholder="..." />
+            <marker date="1543919797430" expanded="true" signature="6454:6575" placeholder="..." />
+            <marker date="1543919797430" expanded="true" signature="6461:6501" placeholder="..." />
+            <marker date="1543919797430" expanded="true" signature="6508:6567" placeholder="..." />
           </folding>
         </state>
       </provider>
