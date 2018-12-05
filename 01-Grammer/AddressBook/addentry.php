@@ -1,14 +1,33 @@
 <?php
 include 'include.php';
-
+doDB();
 if (!$_POST || $_GET['master_id'] != "") {
-    $display_block = <<<END_OF_TEXT
-<form action="$_SERVER[PHP_SELF]", method="POST">
-    <fieldset>
-        <legend>First/Last Name:</legend><br>
-        <input type="text" name="f_name" size="30" maxlength="75" required="required">
-        <input type="text" name="l_name" size="30" maxlength="75" required="required">
-    </fieldset>
+
+    if(isset($_GET["master_id"])) {
+        $safe_id = $_GET['master_id'];
+        $get_names_sql = "select concat_ws(' ', f_name, l_name) as display_name
+        from master_name where id='". $safe_id ."'";
+        $get_names_res = mysqli_query($mysqli, $get_names_sql)
+        or die(mysqli_error($mysqli));
+        if (mysqli_num_rows($get_names_res) == 1) {
+            while($name_info = mysqli_fetch_array($get_names_res)) {
+                $display_name = stripslashes($name_info['display_name']);
+            }
+        }
+    }
+    $display_block = "<form action=\"$_SERVER[PHP_SELF]\", method=\"POST\">";
+    if (isset($display_name)) {
+        $display_block .= "<p>Adding information for <strong>$display_name<strong>:</p>";
+    }else {
+        $display_block .= "
+            <fieldset>
+                <legend>First/Last Name:</legend><br>
+                <input type=\"text\" name=\"f_name\" size=\"30\" maxlength=\"75\" required=\"required\">
+                <input type=\"text\" name=\"l_name\" size=\"30\" maxlength=\"75\" required=\"required\">
+            </fieldset>
+            ";
+    }
+    $display_block .= <<<END_OF_TEXT
     <p>
         <label for="address">Street Address:</label>
         <br>
@@ -63,11 +82,21 @@ if (!$_POST || $_GET['master_id'] != "") {
         <label for="note">Personal Note:</label><br>
         <textarea name="note" id="note" cols="35" rows="3"></textarea>
     </p>
+END_OF_TEXT;
+    if ($_GET) {
+        $display_block .= "<input type=\"hidden\" name=\"master_id\"
+            value=\"". $_GET['master_id'] ."\">";
+    }
+    $display_block .= <<< END_OF_TEXT
     <button type="submit" name="submit" value="send">Add Entry</button>
 </form>
 END_OF_TEXT;
 }else if($_POST) {
-    if (($_POST['f_name'] == '') || $_POST['l_name'] == '') {
+    if (($_POST['f_name'] == '' || $_POST['l_name'] == '') &&
+        !isset($_POST['master_id'])) {
+        echo $_POST['f_name'];
+        echo  "<br>";
+        echo $_POST['l_name'];
         header("Location: addentry.php");
         exit;
     }
@@ -84,15 +113,19 @@ END_OF_TEXT;
     $safe_email= mysqli_real_escape_string($mysqli, $_POST['email']);
     $safe_note = mysqli_real_escape_string($mysqli, $_POST['note']);
 
-    // add to master_name
-    $add_master_sql = "INSERT INTO master_name(date_added,
+    if (isset($_POST['master_id'])) {
+        $master_id = $_POST['master_id'];
+    }else {
+        // add to master_name
+        $add_master_sql = "INSERT INTO master_name(date_added,
     date_modified, f_name, l_name) VALUES
     (now(), now(), '".$safe_f_name."', '".$safe_l_name."')";
-    $add_master_res = mysqli_query($mysqli, $add_master_sql)
-    or die(mysqli_error($mysqli));
+        $add_master_res = mysqli_query($mysqli, $add_master_sql)
+        or die(mysqli_error($mysqli));
 
-    // get master id for use with other tables
-    $master_id = mysqli_insert_id($mysqli);
+        // get master id for use with other tables
+        $master_id = mysqli_insert_id($mysqli);
+    }
 
     if($_POST['address'] || $_POST['city'] ||
         $_POST['state'] || $_POST['zipcode']) {
@@ -133,12 +166,13 @@ END_OF_TEXT;
         $add_note_sql = "INSERT INTO personal_notes(master_id, date_added, date_modified,
         note) VALUES('".$master_id."', now(), now(),
          '". $safe_note ."')";
+        echo $add_note_sql;
         $add_note_res = mysqli_query($mysqli, $add_note_sql)
         or die(mysqli_error($mysqli));
     }
     mysqli_close($mysqli);
     $display_block .= "<p style='text-align: center'>
-<a href=\"addentry.php?master_id=". $POST['sel_id'] ."\">add info</a>
+<a href=\"addentry.php?master_id=". $master_id ."\">add info</a>
 <a href='addentry.php'>add another</a>
 </p>";
 }
