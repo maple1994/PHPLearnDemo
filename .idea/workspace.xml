@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="386fc526-20ba-4826-9eee-9eda5a82c792" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Grammer/Topic/addtopic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Grammer/Topic/do_addtopic.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Grammer/Topic/include.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Grammer/Topic/replytopost.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Grammer/Topic/showtopic.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Grammer/Topic/topiclist.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/01-Grammer/03-date.php" afterPath="$PROJECT_DIR$/01-Grammer/03-date.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/01-Grammer/AddressBook/addentry.php" afterPath="$PROJECT_DIR$/01-Grammer/AddressBook/addentry.php" />
     </list>
     <ignored path="Learn.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,99 +30,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="addentry.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01-Grammer/AddressBook/addentry.php">
+      <file leaf-file-name="replytopost.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/01-Grammer/Topic/replytopost.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.8709677">
-              <caret line="161" column="32" selection-start-line="161" selection-start-column="32" selection-end-line="161" selection-end-column="32" />
+            <state vertical-scroll-proportion="-13.935484">
+              <caret line="58" column="14" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="14" />
               <folding>
-                <marker date="1543978060624" expanded="true" signature="182:286" placeholder="select conca..master_name..." />
-                <marker date="1543978060624" expanded="true" signature="877:1165" placeholder="..." />
-                <marker date="1543978060624" expanded="true" signature="1224:4052" placeholder="..." />
-                <marker date="1543978060624" expanded="true" signature="1231:1251" placeholder="..." />
-                <marker date="1543978060624" expanded="true" signature="1231:1372" placeholder="..." />
-                <marker date="1543978060624" expanded="true" signature="1387:1453" placeholder="..." />
-                <marker date="1543978060624" expanded="true" signature="1387:1645" placeholder="..." />
-                <marker date="1543978060624" expanded="true" signature="1660:1724" placeholder="..." />
-                <marker date="1543978060624" expanded="true" signature="1660:2086" placeholder="..." />
-                <marker date="1543978060624" expanded="true" signature="2101:2169" placeholder="..." />
-                <marker date="1543978060624" expanded="true" signature="2101:2602" placeholder="..." />
-                <marker date="1543978060624" expanded="true" signature="2617:2679" placeholder="..." />
-                <marker date="1543978060624" expanded="true" signature="2617:3112" placeholder="..." />
-                <marker date="1543978060624" expanded="true" signature="3127:3192" placeholder="..." />
-                <marker date="1543978060624" expanded="true" signature="3127:3638" placeholder="..." />
-                <marker date="1543978060624" expanded="true" signature="3646:3666" placeholder="..." />
-                <marker date="1543978060624" expanded="true" signature="3646:3779" placeholder="..." />
-                <marker date="1543978060624" expanded="true" signature="3879:3926" placeholder="..." />
-                <marker date="1543978060624" expanded="true" signature="5290:5426" placeholder="INSERT INTO master_name..." />
-                <marker date="1543978060624" expanded="true" signature="5762:5864" placeholder="INSERT INTO address..." />
-                <marker date="1543978060624" expanded="true" signature="5762:5880" placeholder="INSERT INTO address..." />
-                <marker date="1543978060624" expanded="true" signature="5762:5881" placeholder="INSERT INTO address..." />
-                <marker date="1543978060624" expanded="true" signature="5762:5913" placeholder="INSERT INTO address..." />
-                <marker date="1543978060624" expanded="true" signature="5762:5942" placeholder="INSERT INTO address..." />
-                <marker date="1543978060624" expanded="true" signature="5762:5960" placeholder="INSERT INTO address..." />
-                <marker date="1543978060624" expanded="true" signature="5762:5979" placeholder="INSERT INTO address..." />
-                <marker date="1543978060624" expanded="true" signature="5762:6008" placeholder="INSERT INTO address..." />
-                <marker date="1543978060624" expanded="true" signature="5762:6010" placeholder="INSERT INTO address..." />
-                <marker date="1543978060624" expanded="true" signature="5762:6032" placeholder="INSERT INTO address..." />
-                <marker date="1543978060624" expanded="true" signature="6203:6214" placeholder="INSERT INTO telephone..." />
-                <marker date="1543978060624" expanded="true" signature="6203:6297" placeholder="INSERT INTO telephone..." />
-                <marker date="1543978060624" expanded="true" signature="6203:6338" placeholder="INSERT INTO telephone..." />
-                <marker date="1543978060624" expanded="true" signature="6203:6364" placeholder="INSERT INTO telephone..." />
-                <marker date="1543978060624" expanded="true" signature="6203:6390" placeholder="INSERT INTO telephone..." />
-                <marker date="1543978060624" expanded="true" signature="6553:6641" placeholder="INSERT INTO fax..." />
-                <marker date="1543978060624" expanded="true" signature="6553:6732" placeholder="INSERT INTO fax..." />
-                <marker date="1543978060624" expanded="true" signature="6892:6977" placeholder="INSERT INTO email..." />
-                <marker date="1543978060624" expanded="true" signature="6892:7067" placeholder="INSERT INTO fax..." />
-                <marker date="1543978060624" expanded="true" signature="7229:7316" placeholder="INSERT INTO personal_notes..." />
-                <marker date="1543978060624" expanded="true" signature="7229:7375" placeholder="INSERT INTO personal_notes..." />
-                <marker date="1543978060624" expanded="true" signature="7572:7590" placeholder="..." />
-                <marker date="1543978060624" expanded="true" signature="7591:7600" placeholder="..." />
-                <marker date="1543978060624" expanded="true" signature="7591:7625" placeholder="..." />
-                <marker date="1543978060624" expanded="true" signature="7591:7700" placeholder="..." />
-                <marker date="1543978060624" expanded="true" signature="7730:7851" placeholder="..." />
-                <marker date="1543978060624" expanded="true" signature="7737:7777" placeholder="..." />
-                <marker date="1543978060624" expanded="true" signature="7784:7843" placeholder="..." />
+                <marker date="1544093795880" expanded="true" signature="196:327" placeholder="select ft.to..forum_posts..." />
+                <marker date="1544093795880" expanded="true" signature="1708:1765" placeholder="insert into forum_post..." />
+                <marker date="1544093795880" expanded="true" signature="1708:1829" placeholder="insert into forum_post..." />
+                <marker date="1544093795880" expanded="true" signature="1708:2001" placeholder="insert into forum_post..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="selentry.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01-Grammer/AddressBook/selentry.php">
+      <file leaf-file-name="showtopic.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/01-Grammer/Topic/showtopic.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.419355">
-              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.384127">
+              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
               <folding>
-                <marker date="1543917743059" expanded="true" signature="123:130" placeholder="select * fro..master_name..." />
-                <marker date="1543917743059" expanded="true" signature="123:226" placeholder="select id, c..master_name..." />
-                <marker date="1543917743059" expanded="true" signature="521:1183" placeholder="..." />
-                <marker date="1543917743059" expanded="true" signature="537:1071" placeholder="..." />
-                <marker date="1543917743059" expanded="true" signature="697:1054" placeholder="..." />
-                <marker date="1543917743059" expanded="true" signature="1400:1481" placeholder="select id, c..master_name..." />
-                <marker date="1543917743059" expanded="true" signature="1400:1500" placeholder="select id, c..master_name..." />
-                <marker date="1543917743059" expanded="true" signature="1400:1501" placeholder="select conca..master_name..." />
-                <marker date="1543917743059" expanded="true" signature="1400:1502" placeholder="select id, c..master_name..." />
-                <marker date="1543917743059" expanded="true" signature="1888:1915" placeholder="select * fro..address..." />
-                <marker date="1543917743059" expanded="true" signature="1888:1916" placeholder="select * fro..address..." />
-                <marker date="1543917743059" expanded="true" signature="1888:1926" placeholder="select * fro..address..." />
-                <marker date="1543917743059" expanded="true" signature="1888:1936" placeholder="select * fro..address..." />
-                <marker date="1543917743059" expanded="true" signature="2595:2635" placeholder="select * fro..address..." />
-                <marker date="1543917743059" expanded="true" signature="3144:3178" placeholder="select * fro..fax..." />
-                <marker date="1543917743059" expanded="true" signature="3684:3720" placeholder="select * fro..email..." />
-                <marker date="1543917743059" expanded="true" signature="4232:4277" placeholder="select * fro..personal_notes..." />
-                <marker date="1543917743059" expanded="true" signature="4311:4358" placeholder="select * fro..personal_notes..." />
+                <marker date="1544093588949" expanded="true" signature="172:179" placeholder="select post_..forum_topics..." />
+                <marker date="1544093588949" expanded="true" signature="172:224" placeholder="select topic..forum_topics..." />
+                <marker date="1544093588949" expanded="true" signature="626:781" placeholder="select post_..forum_topic..." />
+                <marker date="1544093588949" expanded="true" signature="626:827" placeholder="select post_..forum_topic..." />
+                <marker date="1544093588949" expanded="true" signature="626:828" placeholder="select post_..forum_topic..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="03-date.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/01-Grammer/03-date.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.52380955">
-              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -163,6 +101,12 @@
         <option value="$PROJECT_DIR$/01-Grammer/AddressBook/delentry.php" />
         <option value="$PROJECT_DIR$/01-Grammer/AddressBook/addentry.php" />
         <option value="$PROJECT_DIR$/01-Grammer/03-date.php" />
+        <option value="$PROJECT_DIR$/01-Grammer/Topic/include.php" />
+        <option value="$PROJECT_DIR$/01-Grammer/Topic/addtopic.html" />
+        <option value="$PROJECT_DIR$/01-Grammer/Topic/do_addtopic.php" />
+        <option value="$PROJECT_DIR$/01-Grammer/Topic/topiclist.php" />
+        <option value="$PROJECT_DIR$/01-Grammer/Topic/showtopic.php" />
+        <option value="$PROJECT_DIR$/01-Grammer/Topic/replytopost.php" />
       </list>
     </option>
   </component>
@@ -176,7 +120,6 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="2" />
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="758" />
@@ -225,6 +168,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -271,14 +216,30 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Topic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Learn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Learn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="01-Grammer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="AddressBook" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -332,7 +293,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2" y="23" width="1280" height="758" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="758" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -340,6 +301,7 @@
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -350,7 +312,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -380,51 +341,14 @@
           <folding>
             <marker date="1543978060624" expanded="true" signature="182:286" placeholder="select conca..master_name..." />
             <marker date="1543978060624" expanded="true" signature="877:1165" placeholder="..." />
-            <marker date="1543978060624" expanded="true" signature="1224:4052" placeholder="..." />
-            <marker date="1543978060624" expanded="true" signature="1231:1251" placeholder="..." />
-            <marker date="1543978060624" expanded="true" signature="1231:1372" placeholder="..." />
-            <marker date="1543978060624" expanded="true" signature="1387:1453" placeholder="..." />
-            <marker date="1543978060624" expanded="true" signature="1387:1645" placeholder="..." />
-            <marker date="1543978060624" expanded="true" signature="1660:1724" placeholder="..." />
-            <marker date="1543978060624" expanded="true" signature="1660:2086" placeholder="..." />
-            <marker date="1543978060624" expanded="true" signature="2101:2169" placeholder="..." />
-            <marker date="1543978060624" expanded="true" signature="2101:2602" placeholder="..." />
-            <marker date="1543978060624" expanded="true" signature="2617:2679" placeholder="..." />
-            <marker date="1543978060624" expanded="true" signature="2617:3112" placeholder="..." />
-            <marker date="1543978060624" expanded="true" signature="3127:3192" placeholder="..." />
-            <marker date="1543978060624" expanded="true" signature="3127:3638" placeholder="..." />
-            <marker date="1543978060624" expanded="true" signature="3646:3666" placeholder="..." />
-            <marker date="1543978060624" expanded="true" signature="3646:3779" placeholder="..." />
-            <marker date="1543978060624" expanded="true" signature="3879:3926" placeholder="..." />
             <marker date="1543978060624" expanded="true" signature="5290:5426" placeholder="INSERT INTO master_name..." />
-            <marker date="1543978060624" expanded="true" signature="5762:5864" placeholder="INSERT INTO address..." />
-            <marker date="1543978060624" expanded="true" signature="5762:5880" placeholder="INSERT INTO address..." />
-            <marker date="1543978060624" expanded="true" signature="5762:5881" placeholder="INSERT INTO address..." />
-            <marker date="1543978060624" expanded="true" signature="5762:5913" placeholder="INSERT INTO address..." />
-            <marker date="1543978060624" expanded="true" signature="5762:5942" placeholder="INSERT INTO address..." />
-            <marker date="1543978060624" expanded="true" signature="5762:5960" placeholder="INSERT INTO address..." />
-            <marker date="1543978060624" expanded="true" signature="5762:5979" placeholder="INSERT INTO address..." />
-            <marker date="1543978060624" expanded="true" signature="5762:6008" placeholder="INSERT INTO address..." />
-            <marker date="1543978060624" expanded="true" signature="5762:6010" placeholder="INSERT INTO address..." />
             <marker date="1543978060624" expanded="true" signature="5762:6032" placeholder="INSERT INTO address..." />
-            <marker date="1543978060624" expanded="true" signature="6203:6214" placeholder="INSERT INTO telephone..." />
-            <marker date="1543978060624" expanded="true" signature="6203:6297" placeholder="INSERT INTO telephone..." />
-            <marker date="1543978060624" expanded="true" signature="6203:6338" placeholder="INSERT INTO telephone..." />
-            <marker date="1543978060624" expanded="true" signature="6203:6364" placeholder="INSERT INTO telephone..." />
             <marker date="1543978060624" expanded="true" signature="6203:6390" placeholder="INSERT INTO telephone..." />
-            <marker date="1543978060624" expanded="true" signature="6553:6641" placeholder="INSERT INTO fax..." />
             <marker date="1543978060624" expanded="true" signature="6553:6732" placeholder="INSERT INTO fax..." />
-            <marker date="1543978060624" expanded="true" signature="6892:6977" placeholder="INSERT INTO email..." />
-            <marker date="1543978060624" expanded="true" signature="6892:7067" placeholder="INSERT INTO fax..." />
-            <marker date="1543978060624" expanded="true" signature="7229:7316" placeholder="INSERT INTO personal_notes..." />
+            <marker date="1543978060624" expanded="true" signature="6892:7067" placeholder="INSERT INTO email..." />
             <marker date="1543978060624" expanded="true" signature="7229:7375" placeholder="INSERT INTO personal_notes..." />
             <marker date="1543978060624" expanded="true" signature="7572:7590" placeholder="..." />
-            <marker date="1543978060624" expanded="true" signature="7591:7600" placeholder="..." />
-            <marker date="1543978060624" expanded="true" signature="7591:7625" placeholder="..." />
             <marker date="1543978060624" expanded="true" signature="7591:7700" placeholder="..." />
-            <marker date="1543978060624" expanded="true" signature="7730:7851" placeholder="..." />
-            <marker date="1543978060624" expanded="true" signature="7737:7777" placeholder="..." />
-            <marker date="1543978060624" expanded="true" signature="7784:7843" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -737,13 +661,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01-Grammer/AddressBook/include.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.06984127">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/01-Grammer/AddressBook/mymenu.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.24444444">
@@ -768,65 +685,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01-Grammer/AddressBook/addentry.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.8709677">
-          <caret line="161" column="32" selection-start-line="161" selection-start-column="32" selection-end-line="161" selection-end-column="32" />
-          <folding>
-            <marker date="1543978060624" expanded="true" signature="182:286" placeholder="select conca..master_name..." />
-            <marker date="1543978060624" expanded="true" signature="877:1165" placeholder="..." />
-            <marker date="1543978060624" expanded="true" signature="1224:4052" placeholder="..." />
-            <marker date="1543978060624" expanded="true" signature="1231:1251" placeholder="..." />
-            <marker date="1543978060624" expanded="true" signature="1231:1372" placeholder="..." />
-            <marker date="1543978060624" expanded="true" signature="1387:1453" placeholder="..." />
-            <marker date="1543978060624" expanded="true" signature="1387:1645" placeholder="..." />
-            <marker date="1543978060624" expanded="true" signature="1660:1724" placeholder="..." />
-            <marker date="1543978060624" expanded="true" signature="1660:2086" placeholder="..." />
-            <marker date="1543978060624" expanded="true" signature="2101:2169" placeholder="..." />
-            <marker date="1543978060624" expanded="true" signature="2101:2602" placeholder="..." />
-            <marker date="1543978060624" expanded="true" signature="2617:2679" placeholder="..." />
-            <marker date="1543978060624" expanded="true" signature="2617:3112" placeholder="..." />
-            <marker date="1543978060624" expanded="true" signature="3127:3192" placeholder="..." />
-            <marker date="1543978060624" expanded="true" signature="3127:3638" placeholder="..." />
-            <marker date="1543978060624" expanded="true" signature="3646:3666" placeholder="..." />
-            <marker date="1543978060624" expanded="true" signature="3646:3779" placeholder="..." />
-            <marker date="1543978060624" expanded="true" signature="3879:3926" placeholder="..." />
-            <marker date="1543978060624" expanded="true" signature="5290:5426" placeholder="INSERT INTO master_name..." />
-            <marker date="1543978060624" expanded="true" signature="5762:5864" placeholder="INSERT INTO address..." />
-            <marker date="1543978060624" expanded="true" signature="5762:5880" placeholder="INSERT INTO address..." />
-            <marker date="1543978060624" expanded="true" signature="5762:5881" placeholder="INSERT INTO address..." />
-            <marker date="1543978060624" expanded="true" signature="5762:5913" placeholder="INSERT INTO address..." />
-            <marker date="1543978060624" expanded="true" signature="5762:5942" placeholder="INSERT INTO address..." />
-            <marker date="1543978060624" expanded="true" signature="5762:5960" placeholder="INSERT INTO address..." />
-            <marker date="1543978060624" expanded="true" signature="5762:5979" placeholder="INSERT INTO address..." />
-            <marker date="1543978060624" expanded="true" signature="5762:6008" placeholder="INSERT INTO address..." />
-            <marker date="1543978060624" expanded="true" signature="5762:6010" placeholder="INSERT INTO address..." />
-            <marker date="1543978060624" expanded="true" signature="5762:6032" placeholder="INSERT INTO address..." />
-            <marker date="1543978060624" expanded="true" signature="6203:6214" placeholder="INSERT INTO telephone..." />
-            <marker date="1543978060624" expanded="true" signature="6203:6297" placeholder="INSERT INTO telephone..." />
-            <marker date="1543978060624" expanded="true" signature="6203:6338" placeholder="INSERT INTO telephone..." />
-            <marker date="1543978060624" expanded="true" signature="6203:6364" placeholder="INSERT INTO telephone..." />
-            <marker date="1543978060624" expanded="true" signature="6203:6390" placeholder="INSERT INTO telephone..." />
-            <marker date="1543978060624" expanded="true" signature="6553:6641" placeholder="INSERT INTO fax..." />
-            <marker date="1543978060624" expanded="true" signature="6553:6732" placeholder="INSERT INTO fax..." />
-            <marker date="1543978060624" expanded="true" signature="6892:6977" placeholder="INSERT INTO email..." />
-            <marker date="1543978060624" expanded="true" signature="6892:7067" placeholder="INSERT INTO fax..." />
-            <marker date="1543978060624" expanded="true" signature="7229:7316" placeholder="INSERT INTO personal_notes..." />
-            <marker date="1543978060624" expanded="true" signature="7229:7375" placeholder="INSERT INTO personal_notes..." />
-            <marker date="1543978060624" expanded="true" signature="7572:7590" placeholder="..." />
-            <marker date="1543978060624" expanded="true" signature="7591:7600" placeholder="..." />
-            <marker date="1543978060624" expanded="true" signature="7591:7625" placeholder="..." />
-            <marker date="1543978060624" expanded="true" signature="7591:7700" placeholder="..." />
-            <marker date="1543978060624" expanded="true" signature="7730:7851" placeholder="..." />
-            <marker date="1543978060624" expanded="true" signature="7737:7777" placeholder="..." />
-            <marker date="1543978060624" expanded="true" signature="7784:7843" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/01-Grammer/AddressBook/selentry.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.419355">
+        <state vertical-scroll-proportion="0.0">
           <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding>
             <marker date="1543917743059" expanded="true" signature="123:130" placeholder="select * fro..master_name..." />
@@ -853,9 +714,110 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/01-Grammer/03-date.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52380955">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        <state vertical-scroll-proportion="-10.645162">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-Grammer/AddressBook/addentry.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.7096774">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="22" />
+          <folding>
+            <marker date="1543978060624" expanded="true" signature="182:286" placeholder="select conca..master_name..." />
+            <marker date="1543978060624" expanded="true" signature="877:1165" placeholder="..." />
+            <marker date="1543978060624" expanded="true" signature="5290:5426" placeholder="INSERT INTO master_name..." />
+            <marker date="1543978060624" expanded="true" signature="5762:6032" placeholder="INSERT INTO address..." />
+            <marker date="1543978060624" expanded="true" signature="6203:6390" placeholder="INSERT INTO telephone..." />
+            <marker date="1543978060624" expanded="true" signature="6553:6732" placeholder="INSERT INTO fax..." />
+            <marker date="1543978060624" expanded="true" signature="6892:7067" placeholder="INSERT INTO email..." />
+            <marker date="1543978060624" expanded="true" signature="7229:7375" placeholder="INSERT INTO personal_notes..." />
+            <marker date="1543978060624" expanded="true" signature="7572:7590" placeholder="..." />
+            <marker date="1543978060624" expanded="true" signature="7591:7700" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-Grammer/AddressBook/include.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.7096774">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="14" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-Grammer/Topic/do_addtopic.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <folding>
+            <marker date="1544085944176" expanded="true" signature="438:515" placeholder="insert into forum_topics..." />
+            <marker date="1544085944176" expanded="true" signature="438:540" placeholder="insert into forum_topics..." />
+            <marker date="1544085944176" expanded="true" signature="438:542" placeholder="insert into forum_topics..." />
+            <marker date="1544085944176" expanded="true" signature="438:577" placeholder="insert into forum_topics..." />
+            <marker date="1544085944176" expanded="true" signature="724:806" placeholder="insert into from_posts..." />
+            <marker date="1544085944176" expanded="true" signature="724:821" placeholder="insert into from_posts..." />
+            <marker date="1544085944176" expanded="true" signature="724:822" placeholder="insert into from_posts..." />
+            <marker date="1544085944176" expanded="true" signature="724:848" placeholder="insert into from_posts..." />
+            <marker date="1544085944176" expanded="true" signature="724:883" placeholder="insert into from_posts..." />
+            <marker date="1544085944176" expanded="true" signature="1014:1089" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-Grammer/Topic/include.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13968255">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-Grammer/Topic/addtopic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.72063494">
+          <caret line="25" column="29" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-Grammer/Topic/topiclist.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17460318">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="48" />
+          <folding>
+            <marker date="1544089090947" expanded="true" signature="57:223" placeholder="select topic..forum_topics..." />
+            <marker date="1544089090947" expanded="true" signature="873:941" placeholder="select * fro..forum_posts..." />
+            <marker date="1544089090947" expanded="true" signature="873:953" placeholder="select * fro..forum_posts..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-Grammer/Topic/replytopost.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.935484">
+          <caret line="58" column="14" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="14" />
+          <folding>
+            <marker date="1544093795880" expanded="true" signature="196:327" placeholder="select ft.to..forum_posts..." />
+            <marker date="1544093795880" expanded="true" signature="1708:1765" placeholder="insert into forum_post..." />
+            <marker date="1544093795880" expanded="true" signature="1708:1829" placeholder="insert into forum_post..." />
+            <marker date="1544093795880" expanded="true" signature="1708:2001" placeholder="insert into forum_post..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-Grammer/Topic/showtopic.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.384127">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding>
+            <marker date="1544093588949" expanded="true" signature="172:179" placeholder="select post_..forum_topics..." />
+            <marker date="1544093588949" expanded="true" signature="172:224" placeholder="select topic..forum_topics..." />
+            <marker date="1544093588949" expanded="true" signature="626:781" placeholder="select post_..forum_topic..." />
+            <marker date="1544093588949" expanded="true" signature="626:827" placeholder="select post_..forum_topic..." />
+            <marker date="1544093588949" expanded="true" signature="626:828" placeholder="select post_..forum_topic..." />
+          </folding>
         </state>
       </provider>
     </entry>

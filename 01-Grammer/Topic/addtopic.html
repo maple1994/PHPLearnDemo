@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add a Topic</title>
+</head>
+<body>
+<h1>Add a Topic</h1>
+
+<form action="do_addtopic.php" method="post">
+    <p>
+        <label for="topic_owner_id">
+            Your Email Address:
+        </label><br>
+        <input type="email" name="topic_owner" id="topic_owner_id" size="40"
+        maxlength="150" required="required">
+    </p>
+    <p>
+        <label for="topic_title_id">
+            Topic Title:
+        </label><br>
+        <input type="text" name="topic_title" id="topic_title_id" size="40"
+               maxlength="150" required="required">
+    </p>
+    <p><label for="post_text_id">Post Text:</label></p>
+    <textarea name="post_text" id="post_text_id" cols="40" rows="8"></textarea>
+    <br>
+    <button type="submit" value="Add Topic">Add Topic</button>
+</form>
+</body>
+</html>
