@@ -1,4 +1,5 @@
 <?php
+session_start();
 include 'include.php';
 doDB();
 
@@ -36,29 +37,41 @@ if(mysqli_num_rows($res) < 1) {
         $item_desc
     </p>
     <p><strong>Prices:</strong>$$item_price</p>
+    <form action="addtocart.php" method="post">
 END_OF_TEXT;
     $get_color_sql = "select item_color from store_item_color where item_id=". $item_id;
     $get_color_res = mysqli_query($mysqli, $get_color_sql) or die(mysqli_error($mysqli));
     if(mysqli_num_rows($get_color_res) > 0) {
-        $display_block .= "<p><strong>Available Colors:</strong><br>";
+        $display_block .= "<p><label for='sel_item_color'>Available Colors:</label><br>";
+        $display_block .= "<select id='sel_item_color' name='sel_item_color'>";
         while($color_info = mysqli_fetch_array($get_color_res)) {
             $color = $color_info["item_color"];
-            $display_block .= $color . "<br>";
+            $display_block .= "<option value='$color'>$color</option>";
         }
-        $display_block .= "</p>";
+        $display_block .= "</select></p>";
     }
 
     $get_size_sql = "select item_size from store_size where item_id=". $item_id;
     $get_size_res = mysqli_query($mysqli, $get_size_sql) or die(mysqli_error($mysqli));
     if(mysqli_num_rows($get_size_res) > 0) {
-        $display_block .= "<p><strong>Available Sizes:</strong><br>";
+        $display_block .= "<p><label for='sel_item_size'>Available Sizes:</label><br>";
+        $display_block .= "<select id='sel_item_size' name='sel_item_size'>";
         while($size_info = mysqli_fetch_array($get_size_res)) {
             $size = $size_info["item_size"];
-            $display_block .= $size . "<br>";
+            $display_block .= "<option value='$size'>$size</option>";
         }
-        $display_block .= "</p>";
+        $display_block .= "</select></p>";
     }
-    $display_block .= "</div>";
+    $display_block .= "<p><label for='sel_item_qty'>Select Quantity:</label><br>";
+    $display_block .= "<select id='sel_item_qty' name='sel_item_qty'>";
+    for($i = 1; $i < 11; $i++) {
+        $display_block .= "<option value='$i'>$i</option>";
+    }
+    $display_block .= "</select></p>";
+    $display_block .= "<input type='hidden' name='sel_item_id' value='$item_id'>";
+    $display_block .= "<button type='submit'>Add to Cart</button>";
+    $display_block .= "</form></div>";
+    mysqli_close($mysqli);
 }
 
 ?>
@@ -66,35 +79,15 @@ END_OF_TEXT;
 <html>
 <head>
     <title>Show Item Detail</title>
+    <style>
+        label {
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
 <?php
 echo $display_block;
 ?>
-<!--<h1>My Store-Item Detail</h1>-->
-<!--<p><em>You rea viewing:</em></p>-->
-<!--<p>-->
-<!--    <a href="#">HATS</a>>BaseBall hat-->
-<!--</p>-->
-<!--<div style="float:left">-->
-<!--    <img src="images/baseball.jpg" alt="" width="200px"  height="200px">-->
-<!--</div>-->
-<!--<div style="float:left">-->
-<!--    <p>-->
-<!--        <strong>Description:</strong><br>-->
-<!--        Fancy, low_profile base hat-->
-<!--    </p>-->
-<!--    <p><strong>Prices:</strong>$12</p>-->
-<!--    <p>-->
-<!--        <strong>Available Colors:</strong><br>-->
-<!--        black<br>-->
-<!--        blue<br>-->
-<!--        red<br>-->
-<!--    </p>-->
-<!--    <p>-->
-<!--        <strong>Available Sizes:</strong><br>-->
-<!--        One Size Fits All-->
-<!--    </p>-->
-<!--</div>-->
 </body>
 </html>

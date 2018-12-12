@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="386fc526-20ba-4826-9eee-9eda5a82c792" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Grammer/OnlineShop/images/baseball.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Grammer/OnlineShop/include.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Grammer/OnlineShop/seestore.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Grammer/OnlineShop/showitem.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Grammer/OnlineShop/addtocart.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Grammer/OnlineShop/removefromcart.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Grammer/OnlineShop/showcart.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/01-Grammer/OnlineShop/showitem.php" afterPath="$PROJECT_DIR$/01-Grammer/OnlineShop/showitem.php" />
     </list>
     <ignored path="Learn.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,8 +31,8 @@
       <file leaf-file-name="seestore.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/01-Grammer/OnlineShop/seestore.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+            <state vertical-scroll-proportion="-5.677419">
+              <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
               <folding>
                 <marker date="1544517773954" expanded="true" signature="45:75" placeholder="select * fro..store_categories..." />
                 <marker date="1544517773954" expanded="true" signature="636:675" placeholder="select * fro..store_items..." />
@@ -41,15 +41,65 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="showitem.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="showitem.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/01-Grammer/OnlineShop/showitem.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.23174603">
-              <caret line="42" column="37" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
+            <state vertical-scroll-proportion="-23.161291">
+              <caret line="65" column="67" selection-start-line="65" selection-start-column="55" selection-end-line="65" selection-end-column="67" />
               <folding>
-                <marker date="1544520615946" expanded="true" signature="220:391" placeholder="select c.id ..store_items..." />
-                <marker date="1544520615946" expanded="true" signature="1261:1315" placeholder="select item_..store_item_color..." />
-                <marker date="1544520615946" expanded="true" signature="1768:1815" placeholder="select item_..store_item_color..." />
+                <marker date="1544581883257" expanded="true" signature="237:408" placeholder="select c.id ..store_items..." />
+                <marker date="1544581883257" expanded="true" signature="1326:1380" placeholder="select item_..store_item_color..." />
+                <marker date="1544581883257" expanded="true" signature="1966:2013" placeholder="select item_..store_item_color..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="addtocart.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/01-Grammer/OnlineShop/addtocart.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-12.774194">
+              <caret line="18" column="44" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="44" />
+              <folding>
+                <marker date="1544583774182" expanded="true" signature="430:474" placeholder="select item_..store_items..." />
+                <marker date="1544583774182" expanded="true" signature="830:969" placeholder="insert into store_shopperstrack..." />
+                <marker date="1544583774182" expanded="true" signature="830:1045" placeholder="insert into store_shopperstrack..." />
+                <marker date="1544583774182" expanded="true" signature="830:1078" placeholder="insert into store_shopperstrack..." />
+                <marker date="1544583774182" expanded="true" signature="830:1109" placeholder="insert into store_shopperstrack..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="showcart.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/01-Grammer/OnlineShop/showcart.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.096774">
+              <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+              <folding>
+                <marker date="1544592698360" expanded="true" signature="100:300" placeholder="select si.it..store_shoppertrack..." />
+                <marker date="1544592698360" expanded="true" signature="100:301" placeholder="select si.it..store_shopperstrack..." />
+                <marker date="1544592698360" expanded="true" signature="100:305" placeholder="select si.it..store_shopperstrack..." />
+                <marker date="1544592698360" expanded="true" signature="100:321" placeholder="select si.it..store_shopperstrack..." />
+                <marker date="1544592698360" expanded="true" signature="100:322" placeholder="select si.it..store_shopperstrack..." />
+                <marker date="1544592698360" expanded="true" signature="495:578" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="removefromcart.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/01-Grammer/OnlineShop/removefromcart.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.31428573">
+              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+              <folding>
+                <marker date="1544593017654" expanded="true" signature="190:231" placeholder="delete from ..." />
+                <marker date="1544593017654" expanded="true" signature="190:271" placeholder="delete from ..." />
+                <marker date="1544593017654" expanded="true" signature="190:272" placeholder="delete from ..." />
+                <marker date="1544593017654" expanded="true" signature="190:273" placeholder="delete from ..." />
+                <marker date="1544593017654" expanded="true" signature="190:284" placeholder="delete from ..." />
+                <marker date="1544593017654" expanded="true" signature="190:285" placeholder="delete from ..." />
               </folding>
             </state>
           </provider>
@@ -104,6 +154,9 @@
         <option value="$PROJECT_DIR$/01-Grammer/Guess/include.php" />
         <option value="$PROJECT_DIR$/01-Grammer/OnlineShop/seestore.php" />
         <option value="$PROJECT_DIR$/01-Grammer/OnlineShop/showitem.php" />
+        <option value="$PROJECT_DIR$/01-Grammer/OnlineShop/addtocart.php" />
+        <option value="$PROJECT_DIR$/01-Grammer/OnlineShop/showcart.php" />
+        <option value="$PROJECT_DIR$/01-Grammer/OnlineShop/removefromcart.php" />
       </list>
     </option>
   </component>
@@ -281,10 +334,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="758" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -293,7 +347,6 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -321,27 +374,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/01-Grammer/Subscribe/include.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01-Grammer/Subscribe/manage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01-Grammer/Subscribe/include.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/01-Grammer/Subscribe/manage.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -626,6 +658,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.17460318">
           <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <folding>
+            <marker date="1542781897860" expanded="true" signature="532:591" placeholder="select id fr..subscribers..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -643,13 +678,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01-Grammer/OnlineShop/include.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34920636">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/01-Grammer/AddressBook/selentry.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.9079365">
@@ -664,10 +692,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/01-Grammer/OnlineShop/include.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45396826">
+          <caret line="13" column="5" selection-start-line="3" selection-start-column="4" selection-end-line="13" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-Grammer/OnlineShop/showitem.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-23.161291">
+          <caret line="65" column="67" selection-start-line="65" selection-start-column="55" selection-end-line="65" selection-end-column="67" />
+          <folding>
+            <marker date="1544581883257" expanded="true" signature="237:408" placeholder="select c.id ..store_items..." />
+            <marker date="1544581883257" expanded="true" signature="1326:1380" placeholder="select item_..store_item_color..." />
+            <marker date="1544581883257" expanded="true" signature="1966:2013" placeholder="select item_..store_item_color..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/01-Grammer/OnlineShop/seestore.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+        <state vertical-scroll-proportion="-5.677419">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
           <folding>
             <marker date="1544517773954" expanded="true" signature="45:75" placeholder="select * fro..store_categories..." />
             <marker date="1544517773954" expanded="true" signature="636:675" placeholder="select * fro..store_items..." />
@@ -675,14 +723,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01-Grammer/OnlineShop/showitem.php">
+    <entry file="file://$PROJECT_DIR$/01-Grammer/OnlineShop/addtocart.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23174603">
-          <caret line="42" column="37" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
+        <state vertical-scroll-proportion="-12.774194">
+          <caret line="18" column="44" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="44" />
           <folding>
-            <marker date="1544520615946" expanded="true" signature="220:391" placeholder="select c.id ..store_items..." />
-            <marker date="1544520615946" expanded="true" signature="1261:1315" placeholder="select item_..store_item_color..." />
-            <marker date="1544520615946" expanded="true" signature="1768:1815" placeholder="select item_..store_item_color..." />
+            <marker date="1544583774182" expanded="true" signature="430:474" placeholder="select item_..store_items..." />
+            <marker date="1544583774182" expanded="true" signature="830:969" placeholder="insert into store_shopperstrack..." />
+            <marker date="1544583774182" expanded="true" signature="830:1045" placeholder="insert into store_shopperstrack..." />
+            <marker date="1544583774182" expanded="true" signature="830:1078" placeholder="insert into store_shopperstrack..." />
+            <marker date="1544583774182" expanded="true" signature="830:1109" placeholder="insert into store_shopperstrack..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-Grammer/OnlineShop/showcart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.096774">
+          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+          <folding>
+            <marker date="1544592698360" expanded="true" signature="100:300" placeholder="select si.it..store_shoppertrack..." />
+            <marker date="1544592698360" expanded="true" signature="100:301" placeholder="select si.it..store_shopperstrack..." />
+            <marker date="1544592698360" expanded="true" signature="100:305" placeholder="select si.it..store_shopperstrack..." />
+            <marker date="1544592698360" expanded="true" signature="100:321" placeholder="select si.it..store_shopperstrack..." />
+            <marker date="1544592698360" expanded="true" signature="100:322" placeholder="select si.it..store_shopperstrack..." />
+            <marker date="1544592698360" expanded="true" signature="495:578" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-Grammer/OnlineShop/removefromcart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31428573">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding>
+            <marker date="1544593017654" expanded="true" signature="190:231" placeholder="delete from ..." />
+            <marker date="1544593017654" expanded="true" signature="190:271" placeholder="delete from ..." />
+            <marker date="1544593017654" expanded="true" signature="190:272" placeholder="delete from ..." />
+            <marker date="1544593017654" expanded="true" signature="190:273" placeholder="delete from ..." />
+            <marker date="1544593017654" expanded="true" signature="190:284" placeholder="delete from ..." />
+            <marker date="1544593017654" expanded="true" signature="190:285" placeholder="delete from ..." />
           </folding>
         </state>
       </provider>
