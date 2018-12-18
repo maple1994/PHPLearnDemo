@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="386fc526-20ba-4826-9eee-9eda5a82c792" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Grammer/Calender/date_pulldown.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Grammer/Calender/dateselector.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Grammer/Calender/event.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Grammer/Calender/show_date_pulldown.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/access_log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/error_log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/01-Grammer/01-variable.php" afterPath="$PROJECT_DIR$/01-Grammer/01-variable.php" />
     </list>
     <ignored path="Learn.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,21 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="date_pulldown.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01-Grammer/Calender/date_pulldown.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="34.322582">
-              <caret line="31" column="36" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="show_date_pulldown.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/01-Grammer/Calender/show_date_pulldown.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.384127">
-              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.033898305">
+              <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -64,7 +53,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/01-Grammer/01-variable.php" />
         <option value="$PROJECT_DIR$/01-Grammer/02-string.php" />
         <option value="$PROJECT_DIR$/01-Grammer/Guess/congrats.html" />
         <option value="$PROJECT_DIR$/01-Grammer/Guess/guess.php" />
@@ -100,10 +88,12 @@
         <option value="$PROJECT_DIR$/01-Grammer/OnlineShop/addtocart.php" />
         <option value="$PROJECT_DIR$/01-Grammer/OnlineShop/showcart.php" />
         <option value="$PROJECT_DIR$/01-Grammer/OnlineShop/removefromcart.php" />
-        <option value="$PROJECT_DIR$/01-Grammer/Calender/event.php" />
-        <option value="$PROJECT_DIR$/01-Grammer/Calender/dateselector.php" />
         <option value="$PROJECT_DIR$/01-Grammer/Calender/date_pulldown.php" />
         <option value="$PROJECT_DIR$/01-Grammer/Calender/show_date_pulldown.php" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/01-Grammer/Calender/dateselector.php" />
+        <option value="$PROJECT_DIR$/01-Grammer/Calender/event.php" />
+        <option value="$PROJECT_DIR$/01-Grammer/01-variable.php" />
       </list>
     </option>
   </component>
@@ -119,7 +109,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="758" />
+    <option name="height" value="777" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -185,44 +175,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Learn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Learn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="01-Grammer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Learn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Learn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="01-Grammer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Calender" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Custom" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
@@ -236,7 +194,10 @@
       <recent name="$PROJECT_DIR$/01-Grammer/OnlineShop/images" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:8888/Learn/index.html">
+      <method />
+    </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
@@ -265,6 +226,14 @@
       <envs />
       <method />
     </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
@@ -280,12 +249,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="758" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1280" height="777" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -294,6 +262,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -321,10 +290,14 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/01-Grammer/Php_Mysql/01-connect.php">
+    <entry file="file://$PROJECT_DIR$/01-Grammer/Calender/dateselector.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="10" selection-end-column="1" />
+          <caret line="98" column="63" selection-start-line="98" selection-start-column="63" selection-end-line="98" selection-end-column="63" />
+          <folding>
+            <marker date="1544771993970" expanded="true" signature="2691:2909" placeholder="select event..calendar_events..." />
+            <marker date="1544771993970" expanded="true" signature="3253:3416" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -409,13 +382,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01-Grammer/01-variable.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10909091">
-          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -524,13 +490,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01-Grammer/03-date.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.645162">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/01-Grammer/AddressBook/addentry.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.7096774">
@@ -577,9 +536,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.17460318">
           <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-          <folding>
-            <marker date="1542781897860" expanded="true" signature="532:591" placeholder="select id fr..subscribers..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -615,14 +571,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.104761906">
           <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-          <folding>
-            <marker date="1544593017654" expanded="true" signature="190:231" placeholder="delete from ..." />
-            <marker date="1544593017654" expanded="true" signature="190:271" placeholder="delete from ..." />
-            <marker date="1544593017654" expanded="true" signature="190:272" placeholder="delete from ..." />
-            <marker date="1544593017654" expanded="true" signature="190:273" placeholder="delete from ..." />
-            <marker date="1544593017654" expanded="true" signature="190:284" placeholder="delete from ..." />
-            <marker date="1544593017654" expanded="true" signature="190:285" placeholder="delete from ..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -630,14 +578,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34920636">
           <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
-          <folding>
-            <marker date="1544592698360" expanded="true" signature="100:300" placeholder="select si.it..store_shoppertrack..." />
-            <marker date="1544592698360" expanded="true" signature="100:301" placeholder="select si.it..store_shopperstrack..." />
-            <marker date="1544592698360" expanded="true" signature="100:305" placeholder="select si.it..store_shopperstrack..." />
-            <marker date="1544592698360" expanded="true" signature="100:321" placeholder="select si.it..store_shopperstrack..." />
-            <marker date="1544592698360" expanded="true" signature="100:322" placeholder="select si.it..store_shopperstrack..." />
-            <marker date="1544592698360" expanded="true" signature="495:578" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -645,13 +585,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.62857145">
           <caret line="18" column="44" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="44" />
-          <folding>
-            <marker date="1544583774182" expanded="true" signature="430:474" placeholder="select item_..store_items..." />
-            <marker date="1544583774182" expanded="true" signature="830:969" placeholder="insert into store_shopperstrack..." />
-            <marker date="1544583774182" expanded="true" signature="830:1045" placeholder="insert into store_shopperstrack..." />
-            <marker date="1544583774182" expanded="true" signature="830:1078" placeholder="insert into store_shopperstrack..." />
-            <marker date="1544583774182" expanded="true" signature="830:1109" placeholder="insert into store_shopperstrack..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -659,11 +592,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.1396825">
           <caret line="65" column="67" selection-start-line="65" selection-start-column="55" selection-end-line="65" selection-end-column="67" />
-          <folding>
-            <marker date="1544581883257" expanded="true" signature="237:408" placeholder="select c.id ..store_items..." />
-            <marker date="1544581883257" expanded="true" signature="1326:1380" placeholder="select item_..store_item_color..." />
-            <marker date="1544581883257" expanded="true" signature="1966:2013" placeholder="select item_..store_item_color..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -671,10 +599,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2793651">
           <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-          <folding>
-            <marker date="1544517773954" expanded="true" signature="45:75" placeholder="select * fro..store_categories..." />
-            <marker date="1544517773954" expanded="true" signature="636:675" placeholder="select * fro..store_items..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -682,57 +606,57 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.06984127">
           <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01-Grammer/Calender/dateselector.php">
+    <entry file="file://$PROJECT_DIR$/01-Grammer/03-date.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37142858">
-          <caret line="50" column="86" selection-start-line="49" selection-start-column="8" selection-end-line="50" selection-end-column="86" />
-          <folding>
-            <marker date="1544603597344" expanded="true" signature="2691:2909" placeholder="select event..calendar_events..." />
-            <marker date="1544603597344" expanded="true" signature="3253:3316" placeholder="..." />
-            <marker date="1544603597344" expanded="true" signature="3253:3317" placeholder="..." />
-            <marker date="1544603597344" expanded="true" signature="3253:3344" placeholder="..." />
-            <marker date="1544603597344" expanded="true" signature="3253:3416" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01-Grammer/Calender/event.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27031508">
-          <caret line="63" column="8" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="8" />
-          <folding>
-            <marker date="1544603434667" expanded="true" signature="825:899" placeholder="insert into calendar_events..." />
-            <marker date="1544603434667" expanded="true" signature="825:926" placeholder="insert into calendar_events..." />
-            <marker date="1544603434667" expanded="true" signature="825:951" placeholder="insert into calendar_events..." />
-            <marker date="1544603434667" expanded="true" signature="825:970" placeholder="insert into calendar_events..." />
-            <marker date="1544603434667" expanded="true" signature="1257:1384" placeholder="select event..calendar_events..." />
-            <marker date="1544603434667" expanded="true" signature="1257:1398" placeholder="select event..calendar_events..." />
-            <marker date="1544603434667" expanded="true" signature="1257:1429" placeholder="select event..calendar_events..." />
-            <marker date="1544603434667" expanded="true" signature="1257:1468" placeholder="select event..calendar_events..." />
-            <marker date="1544603434667" expanded="true" signature="1257:1469" placeholder="select event..calendar_events..." />
-            <marker date="1544603434667" expanded="true" signature="1257:1503" placeholder="select event..calendar_events..." />
-            <marker date="1544603434667" expanded="true" signature="1257:1504" placeholder="select event..calendar_events..." />
-            <marker date="1544603434667" expanded="true" signature="2088:2246" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/01-Grammer/Calender/date_pulldown.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="34.322582">
+        <state vertical-scroll-proportion="0.034920637">
           <caret line="31" column="36" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-Grammer/01-variable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12941177">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-Grammer/Calender/event.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.033898305">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+          <folding>
+            <marker date="1544771998576" expanded="true" signature="825:970" placeholder="insert into calendar_events..." />
+            <marker date="1544771998576" expanded="true" signature="1257:1503" placeholder="select event..calendar_events..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-Grammer/Calender/dateselector.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.084745765">
+          <caret line="98" column="63" selection-start-line="98" selection-start-column="63" selection-end-line="98" selection-end-column="63" />
+          <folding>
+            <marker date="1544771993970" expanded="true" signature="2691:2909" placeholder="select event..calendar_events..." />
+            <marker date="1544771993970" expanded="true" signature="3253:3416" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/01-Grammer/Calender/show_date_pulldown.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.384127">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.033898305">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
           <folding />
         </state>
       </provider>

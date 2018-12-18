@@ -1,0 +1,2 @@
+[Fri Dec 14 14:01:44 2018] [crit] [client 127.0.0.1] configuration error:  couldn't perform authentication. AuthType not set!: /
+[Fri Dec 14 14:02:05 2018] [crit] [client 127.0.0.1] configuration error:  couldn't perform authentication. AuthType not set!: /

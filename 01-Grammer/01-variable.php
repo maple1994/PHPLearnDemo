@@ -1,4 +1,9 @@
 <?php
-$cash = sprintf("%.2f", 21.33456);
-echo "you have /$$cash to spent";
+echo "aaa<br>";
+
+echo $v1;
+echo c1;
+trigger_error("年龄不符合要求", E_USER_ERROR);
+
+echo "bbb<br>";
 ?>
