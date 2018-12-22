@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        table, td, tr {
+            border: 1px solid #ccc;
+            border-collapse: collapse;
+        }
+
+        tr {
+            border-collapse: collapse;
+        }
+
+        td {
+            padding: 6px;
+        }
+
+    </style>
+</head>
+<body>
+<a href='?c=Product&a=index'>产品列表</a>
+<a href='?c=User'>用户列表</a>
+<hr />
+产品列表：
+<table>
+    <?php
+    foreach($data as $key=>$rec) {
+    ?>
+    <tr>
+        <td><?php echo $rec['pro_name']; ?></td>
+        <td class='t1'><?php echo $rec['price']; ?></td>
+        <td><?php echo $rec['pinpai']; ?></td>
+        <td><?php echo $rec['chandi']; ?></td>
+        <td>
+            <a href="?c=Product&a=del&id=<?php echo $rec['id']; ?>" onclick='return queren()'>删除</a>
+        </td>
+    </tr>
+    <?php } ?>
+</table>
+<hr />
+<a href="?p=back&c=Admin&a=Login">进入后台</a>
+</body>
+</html>
+
+<script>
+    function queren(){
+        return window.confirm("你真的要删除吗？");
+    }
+</script>

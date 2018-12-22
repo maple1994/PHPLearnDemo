@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form name="form1" action="?c=User&a=updateUser" method="post">
+    <h1>更新数据</h1>
+    用户名：<input type="text" name="username" value="<?php echo $data['user_name']?>"><br/>
+    年龄：<input type="text" name="age" value="<?php echo $data['age']?>"><br/>
+    学历：<select name="xueli">
+    <option value="小学" <?php if($data['edu'] == '小学'){echo "selected";}?>>小学</option>
+    <option value="中学" <?php if($data['edu'] == '中学'){echo "selected";}?>>中学</option>
+    <option value="本科" <?php if($data['edu'] == '本科'){echo "selected";}?>>本科</option>
+    <option value="硕士" <?php if($data['edu'] == '博士'){echo "selected";}?>>硕士</option>
+    <option value="博士" <?php if($data['edu'] == '硕士'){echo "selected";}?>>博士</option>
+</select><br/>
+    <input type="hidden" name="id" value="<?php echo $data['id']?>">
+    <input type="submit" value="提交" >
+</form>
+</body>
+</html>
