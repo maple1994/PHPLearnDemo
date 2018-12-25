@@ -1,5 +1,4 @@
 <?php
-session_set_save_handler();
 class Session
 {
     /* 操作数据库的db对象 */
@@ -12,7 +11,7 @@ class Session
      */
     public function __construct()
     {
-        $this->_db = new PDO('mysql:host=127.0.0.1:3307;dbname=test', 'root', '123456');
+//        echo '<br>construct<br>';
     }
 
     /**
@@ -26,7 +25,8 @@ class Session
     public function open($sessionSavePath, $sessionName)
     {
         /* 我们也可以在这里连接数据库 */
-        echo '<br>Begin<br>';
+//        echo '<br>Begin<br>';
+        $this->_db = new PDO('mysql:host=127.0.0.1:3307;dbname=test', 'root', '123456');
         return true;
     }
 
@@ -35,11 +35,11 @@ class Session
      *
      *  @access public
      *  @return boolean
-     */Close
+     */
     public function close()
     {
-        echo '<br>Close<br>';
-//        mysql_close($this->_db->_connectid);
+//        echo '<br>Close<br>';
+        $this->_db = null;
         return true;
     }
 
@@ -52,14 +52,15 @@ class Session
      */
     public function read($sessionID)
     {
-        $returnData = '';
-        $sessionID = trim($sessionID);
-        $sql = " select * from session where session_id='$sessionID' ";
-        $sessionRecord = $this->_db->query($sql);
-        if(is_array($sessionRecord)) {
-            $returnData = $sessionRecord['sessiondata'];
+//        echo '<br>READ<br>';
+        $sql = "select sess_content from session where sess_id='$sessionID'";
+        $res = $this->_db->query($sql);
+        $row = $res->fetch();
+        if ($row) {
+            return $row['sess_content'];
+        }else {
+            return '';
         }
-        return $returnData;
     }
 
     /**
@@ -72,21 +73,9 @@ class Session
      */
     public function write($sessionID, $sessionData)
     {
-        $result = false;
-        $sessionID = trim($sessionID);
-        $sessionData = trim($sessionData);
-        if(!empty($sessionData)) {
-            $addTime = date('Y-m-d H:i:s');
-            $sql = " select * from session where session_id = '$sessionID' ";
-            $sessionRecord = $this->_db->query($sql);//boolean
-            if(count($sessionRecord)) {//存在更新
-                $sql = " update session set sessionData = '$sessionData', addtime = '$addTime' where session_id = '$sessionID' ";
-            } else {//不存在，插入
-                $sql = " inset into session values ('$sessionID', '$sessionData', '$addTime') ";
-            }
-            $this->_db->query($sql);
-        }
-        return $result;
+//        echo '<br>WRITE<br>';
+        $sql = "replace into session values ('$sessionID', '$sessionData', current_timestamp)";
+        return $this->_db->query($sql);
     }
 
     /**
@@ -98,10 +87,10 @@ class Session
      */
     public function destory($sessionID)
     {
-        $result = false;
-        $sql = " delete from session where session_id = '$sessionID' ";
-        $result = $this->_db->query($sql);
-        return $result;
+//        echo '<br>DELETE<br>';
+        // 删除操作
+        $sql = "delete from session where sess_id='$sess_id'";
+        return $this->_db->query($sql);
     }
 
     /**
@@ -113,11 +102,10 @@ class Session
      */
     public function gc($maxlifetime)
     {
-        $result = false;
-        $expireTime = time()-$maxlifetime;
-        $sql = " delete from session where addtime < $expireTime ";
-        $result = $this->_db->query($sql);
-        return $result;
+        echo '<br>GC<br>';
+        // 最后写入时间 < 当前时间-最大有效期
+        $sql = "delete from session where last_write < unix_timestamp()-$maxlifetime";
+        return $this->_db->query($sql);
     }
 }
 $session = new Session();
